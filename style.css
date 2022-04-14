@@ -1,0 +1,38 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+}
+.d1,.d2,.d3,.d4{
+    margin: 5px;
+}
+.d1{
+    background-color: antiquewhite;
+    position: fixed;
+    z-index: 20;
+    
+}
+.d2{
+    background-color: brown;
+
+    position: fixed; 
+     left: 50px;
+     top: 50px;
+     z-index: 30;
+
+}
+.d3{
+    background-color: blue;
+    position: fixed;
+    left: 100px;
+    top: 100px;
+    z-index: 40;
+}
+.d4{
+    background-color: brown;
+    position: fixed;
+    left: 150px;
+    top: 150px;
+    z-index: 20;
+  
+}
